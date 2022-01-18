@@ -203,7 +203,7 @@ begin
     if frmCadClientes.Components[vCont] is TEdit then
       TEdit(frmCadClientes.Components[vCont]).clear;
   end;
-
+  mkEdtTelefone.Clear;
 end;
 
 procedure TfrmCadClientes.ValidarCampos;
